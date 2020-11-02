@@ -25,4 +25,16 @@ defmodule Basics do
     "Funzione con return"
   end
 
+  def creare_elenco do
+    ["Italien", "Deutsch", "Francois", "English", "Spanish"]
+  end
+
+  # Functional Programming:
+
+  # arity - Number of arguments of the function - 1 by default
+  # Riferimento: https://hexdocs.pm/elixir/Enum.html#shuffle/1
+  def shuffle(elenco) do
+    Enum.shuffle(elenco)
+  end
+
 end
